@@ -9,7 +9,7 @@ library not found for -libstdc++.6.0.9，今天做项目的时候碰到这个问
 ![](https://user-gold-cdn.xitu.io/2019/5/25/16aed00cd32b1b89?w=1138&h=409&f=png&s=175240)  
 
 方法2：  
-对应文件夹下添加对应的三个库，[获取Xcode9旧库](https://github.com/longyoung/libstdc.6.0.9-if-help-you-give-a-star.git)（对你有帮助github给个star）  
+对应文件夹下添加对应的三个库，[获取Xcode9旧库](https://github.com/dongpeng66/libstdc.6.0.9-if-help-you-give-a-star.git)（对你有帮助github给个star）  
 ①在RuntimeRoot的lib里面增加libstdc++.6.0.9.dylib，libstdc++.6.dylib，libstdc++.dylib，路径如下：  
 >/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/（下文有进入目录方法）  
 Xcode 11 里面需要对换一下路径
